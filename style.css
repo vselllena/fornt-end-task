@@ -1,5 +1,5 @@
 :root {
-    --dark-blue: #161B21;;
+    --dark-blue: #161B21;
     --dark-gray: #2B323C;
     --yellow: #FFBF46;
     --green: #0EBE98;
@@ -36,7 +36,6 @@
 }
 
 .box {
-    /* width: 367px; */
     width: 95%;
 }
 .pipe{
@@ -58,17 +57,6 @@
 .warranty-holder{
     display: flex;
     justify-content: space-between;
-}
-
-@media only screen and (max-width: 1055px) {
-    .warranty-holder{
-        flex-direction: column;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .box{
-        width: 100%;
-    }
 }
 
 .slides { 
@@ -109,30 +97,33 @@
     top:47%;
 }
 
-        .slide {
-          overflow: hidden;
-          box-sizing: border-box;
-          width: 100%;
-          height: auto;
-          font-size: 3rem;
-          text-align: center;
-          background-color: var(--light-gray);
-          
-       }
-  
-    .prev, .next {
-      height: 2rem;
-      border: 0;
-    }
-  
-   .prev {
-    
-   }
-  
-  .svg{
-    fill:gray;
-  }
+.slide {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    text-align: center;
+    background-color: var(--light-gray);
 
+}
+
+.prev, .next {
+    height: 2rem;
+    border: 0;
+}
  .fixed-size{
     flex-shrink: 0;
  }
+ 
+/* Media queries */
+ @media only screen and (max-width: 1055px) {
+    .warranty-holder{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .box{
+        width: 100%;
+    }
+}
