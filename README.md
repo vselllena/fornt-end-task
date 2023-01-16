@@ -4,7 +4,7 @@ Used tailwind for the styling and added aditional custom classes whenever needed
 
 ## Known issues for this project to have -
 
-# Repeating CSS properties
+## Repeating CSS properties
 Should have started mobile first, since I didn't I handicapped myself when it comes to styling later. Unnecessary classes and repetition in media queries
 
 ## Vanilla js
