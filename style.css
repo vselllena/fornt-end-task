@@ -5,7 +5,27 @@
     --green: #0EBE98;
     --gray: #CAD1DA;
     --light-gray: #F1F5F9;
+    --text-gray: #5D656F;
+    --white-text: #CAD1DA;
+    --text-dark-gray: #83868B;
+    --text-nav: #FDFDFD;
   }
+
+.search {
+    color: var(--text-gray);
+}
+
+.phone {
+    color: var(--white-text);
+}
+
+.call {
+    color: var(--text-dark-gray);
+}
+
+.nav {
+    color: var(--text-nav);
+}
 
 .header {
     background-color: var(--dark-blue);
@@ -57,6 +77,8 @@
 .warranty-holder{
     display: flex;
     justify-content: space-between;
+    background: rgb(45,57,67);
+    background: linear-gradient(90deg, rgba(45,57,67,1) 0%, rgba(41,50,61,1) 21%, rgba(54,67,81,1) 46%, rgba(57,72,87,1) 75%, rgba(45,57,67,1) 100%);
 }
 
 .slides { 
